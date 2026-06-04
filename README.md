@@ -6,7 +6,7 @@
 
 ### A snappy, **free** window manager for macOS
 
-Hold **Shift**, drag any window, and drop it into a zone.
+Hold **Shift**, drag any window, and drop it into a pixel-perfect zone.
 Custom layouts, global hotkeys, multi‑monitor — no subscriptions, no account, no nonsense.
 
 <br/>
@@ -30,7 +30,7 @@ Custom layouts, global hotkeys, multi‑monitor — no subscriptions, no account
 
 ## ✨ Why ekzones
 
-Tiling and snapping tools on the Mac are either fiddly, paid, or do too much. **ekzones** does one thing well: you draw the zones you want, then snap windows into them by **Shift‑dragging**. It lives quietly in your menu bar and gets out of the way.
+Tiling and snapping tools on the Mac are either complex, fiddly, paid, or do too much. **ekzones** does one thing well: you draw the zones you want, then snap windows into them by **Shift‑dragging**. It lives quietly in your menu bar and gets out of the way.
 
 - 🆓 **Completely free** — no trial, no in‑app purchase, no account.
 - 🪶 **Lightweight** — a single menu‑bar app, statically linked, tiny footprint.
@@ -62,15 +62,21 @@ Tiling and snapping tools on the Mac are either fiddly, paid, or do too much. **
 
 ## ⬇️ Install
 
+Option 1:
 1. **[Download the latest `.dmg`](https://github.com/enizvk/ekzones/releases/latest)**.
-2. Open it and **right‑click → Open** on `Install ekzones.command` (or drag the app to **Applications**).
-3. On first launch, grant **Accessibility**: System Settings → Privacy & Security → Accessibility → enable **ekzones**.
-
-> **"ekzones can't be opened because it's from an unidentified developer."**
-> That's expected — ekzones is free and not notarized by Apple. The bundled **Install** command clears the flag for you. If you install manually, run once in Terminal:
+2. Run the command in your terminal:
 > ```sh
 > xattr -dr com.apple.quarantine /Applications/ekzones.app
 > ```
+> 
+> This command is to overcome **"ekzones can't be opened because it's from an unidentified developer."**
+> That's expected — ekzones is free and not notarized by Apple. The bundled **Install** command clears the flag for you. If you install manually, run once in Terminal:
+
+Option 2:
+1. **[Download the latest `.dmg`](https://github.com/enizvk/ekzones/releases/latest)**.
+2. Drag the app to **Applications** or **right‑click → Open** `Install ekzones.command` 
+3. Go to Settings -> Privacy and security -> Allow ekzones
+4. On first launch, grant **Accessibility**: System Settings → Privacy & Security → Accessibility → enable **ekzones**.
 
 **Requirements:** macOS 14 (Sonoma) or later · Apple Silicon or Intel.
 
@@ -106,6 +112,13 @@ Moving and resizing other apps' windows, and detecting your Shift‑drag, both r
 <summary><b>Will my zones survive updates?</b></summary>
 Yes. Your layouts live in <code>~/Library/Application Support/ekzones/</code>, and updates preserve both your config and your Accessibility grant.
 </details>
+
+##  Roadmap
+- Add ability to remember apps in zones with remember/restore functionality that will allow changing layout + app with single click.
+- Stability after user feedback
+- Improve Auto arrange algorithm
+- Support for new mac versions
+
 
 ## 📝 License
 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
