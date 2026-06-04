@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>ekzones</title>
+    <link>https://raw.githubusercontent.com/enizvk/ekzones/main/appcast.xml</link>
+    <description>Updates for ekzones.</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.0</title>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Thu, 04 Jun 2026 16:16:47 +0000</pubDate>
+      <enclosure url="https://github.com/enizvk/ekzones/releases/download/v1.0/ekzones-1.0.dmg" sparkle:edSignature="0Vq/ud3IFsw469JmeluQlQAtBQ+6SsdxnbBzZ9rqOk0/5RlF4lSMvqlH0HAeWGMoURp1Ie2fK8yOFdomEyJZDw==" length="4410984" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/icon.png" width="128" alt="ekzones app icon" />
+<img src="resources/icon.png" width="128" alt="ekzones app icon" />
 
 # ekzones
 
@@ -11,10 +11,7 @@ Custom layouts, global hotkeys, multi‑monitor — no subscriptions, no account
 
 <br/>
 
-![macOS 14+](https://img.shields.io/badge/macOS-14%2B-111?style=for-the-badge&logo=apple&logoColor=white)
-![Price: Free](https://img.shields.io/badge/price-free-22c55e?style=for-the-badge)
-[![Download](https://img.shields.io/github/v/release/enizvk/ekzones?style=for-the-badge&label=download&color=3b82f6)](https://github.com/enizvk/ekzones/releases/latest)
-![Downloads](https://img.shields.io/github/downloads/enizvk/ekzones/total?style=for-the-badge&color=8b5cf6)
+![macOS 14+](https://img.shields.io/badge/macOS-14%2B-111?style=for-the-badge&logo=apple&logoColor=white) ![Price: Free](https://img.shields.io/badge/price-free-22c55e?style=for-the-badge)
 
 <br/>
 
@@ -22,9 +19,10 @@ Custom layouts, global hotkeys, multi‑monitor — no subscriptions, no account
   <img src="https://img.shields.io/badge/⬇_Download_the_latest_.dmg-3b82f6?style=for-the-badge" alt="Download" height="44"/>
 </a>
 
+[Releases](https://github.com/enizvk/ekzones/releases)
 <br/><br/>
 
-<img src="docs/screenshots/zones.png" width="720" alt="Snap windows into zones" />
+<img src="resources/zones.png" width="720" alt="Snap windows into zones" />
 
 </div>
 
@@ -58,8 +56,8 @@ Tiling and snapping tools on the Mac are either fiddly, paid, or do too much. **
 > _Placeholder graphics below — swap them for real captures (see `docs/screenshots/`)._
 
 <div align="center">
-<img src="docs/screenshots/presets.png" width="48%" alt="Presets" />
-<img src="docs/screenshots/settings.png" width="48%" alt="Settings & shortcuts" />
+<img src="resources/screen1.png" width="48%" alt="Presets" />
+<img src="resources/screen2.png" width="48%" alt="Settings & shortcuts" />
 </div>
 
 ## ⬇️ Install
@@ -110,11 +108,16 @@ Yes. Your layouts live in <code>~/Library/Application Support/ekzones/</code>, a
 </details>
 
 ## 📝 License
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-**Free to download and use.** © 2026 Eniz Karadzha. All rights reserved.
-ekzones is freeware, not an open‑source project not for redistribution.
+**Free to download and use.**
+
+ © 2026 Eniz Karadzha. All rights reserved.
+
 
 <div align="center">
 <br/>
+
+
 Made with ❤️ for people who like tidy desktops.
 </div>
