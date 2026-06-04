@@ -22,6 +22,8 @@ Custom layouts, global hotkeys, multi‑monitor — no subscriptions, no account
 [Releases](https://github.com/enizvk/ekzones/releases)
 <br/><br/>
 
+[Youtube video with demo](https://youtu.be/uzQjZPqXcBc)
+
 <img src="resources/zones.png" width="720" alt="Snap windows into zones" />
 
 </div>
