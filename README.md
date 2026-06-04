@@ -85,7 +85,7 @@ Tiling and snapping tools on the Mac are either fiddly, paid, or do too much. **
 
 ## ⬆️ Automatic updates
 
-ekzones updates itself via [Sparkle](https://sparkle-project.org). Every update is verified with a cryptographic (EdDSA) signature before it's installed, and your Accessibility permission carries over automatically — you never have to re‑grant it. You can also check anytime from the menu bar or **Settings → About → Check for Updates…**
+ekzones updates itself via [Sparkle](https://sparkle-project.org). Every update is verified with a cryptographic (EdDSA) signature before it's installed. You can also check anytime from the menu bar or **Settings → About → Check for Updates…**
 
 ## ❓ FAQ
 
@@ -96,7 +96,7 @@ Yes — free to download and use, with no account, ads, or paid tiers.
 
 <details>
 <summary><b>Why does macOS warn me on first launch?</b></summary>
-The app isn't notarized by Apple (that requires a paid developer account). It's safe to open — use the bundled Install command or the <code>xattr</code> step above.
+The app isn't notarized by Apple. It's safe to open — use the bundled Install command or the <code>xattr</code> step above.
 </details>
 
 <details>
@@ -112,7 +112,7 @@ Yes. Your layouts live in <code>~/Library/Application Support/ekzones/</code>, a
 ## 📝 License
 
 **Free to download and use.** © 2026 Eniz Karadzha. All rights reserved.
-ekzones is freeware, not an open‑source project — the source is provided for transparency, not for redistribution.
+ekzones is freeware, not an open‑source project not for redistribution.
 
 <div align="center">
 <br/>
