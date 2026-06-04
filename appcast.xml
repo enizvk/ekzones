@@ -17,17 +17,5 @@
       <pubDate>Thu, 04 Jun 2026 17:04:34 +0000</pubDate>
       <enclosure url="https://github.com/enizvk/ekzones/releases/download/v1.0/ekzones-1.0.dmg" sparkle:edSignature="bNZp670xGFq+PIv8O4ZpM8mBfKbr+pvVRFuVPq39eRnrWpqHrd9FeHclAjrdtzQ2Pd0clpjKPl6zzNQ5Z1zrBg==" length="4410949" type="application/octet-stream" />
     </item>
-    <item>
-      <title>Version 1.1</title>
-      <description>New updates algo<br/>
-- faster<br/>
--quicker<br/>
--quiet<br/></description>
-      <sparkle:version>7</sparkle:version>
-      <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 04 Jun 2026 17:02:09 +0000</pubDate>
-      <enclosure url="https://github.com/enizvk/ekzones/releases/download/v1.1/ekzones-1.1.dmg" sparkle:edSignature="QirW4itf3JH+aARVvI5uou2FJh7bv/+imjP5JGw82RJSJAMQ+6kqabck5juppKr3Vvyjh+NhK9z+7/cBL+zuCw==" length="4410940" type="application/octet-stream" />
-    </item>
   </channel>
 </rss>
