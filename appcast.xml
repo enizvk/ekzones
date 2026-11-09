@@ -9,6 +9,23 @@
     <language>en</language>
     <!-- NEW_ITEMS_HERE — release.sh inserts the newest <item> directly below this line. -->
     <item>
+      <title>Version 1.1</title>
+      <description>Per-Space layouts now work per display: each desktop on each monitor keeps its own layout (stable across reboots)<br/>
+Keyboard navigation: move the focused window to the next/previous zone, or swap it with its neighbor<br/>
+Span zones: hold Option while Shift-dragging to fill several zones; press 1-9 mid-drag to pick a zone by number<br/>
+Restore original size when a snapped window is dragged out of its zone<br/>
+App rules: snap an app's first window into a named zone when it launches<br/>
+Zone shortcuts follow the cursor's display<br/>
+Arrange ignores windows on other desktops (fixes wrong windows being moved and desktop switching mid-arrange)<br/>
+Fixed overlay vanishing when a drag starts right after the previous one ended<br/>
+Edit button on custom presets opens the zone editor<br/></description>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Mon, 09 Nov 2026 09:06:45 +0000</pubDate>
+      <enclosure url="https://github.com/enizvk/ekzones/releases/download/v1.1/ekzones-1.1.dmg" sparkle:edSignature="7vgz9/2xddp86m1pgdBtiQwsDcf+hh3qHaPJsYfiDZcsEH11tXwuYt7CNJlzVWtL1g3A0NkS9oLOI5E4buqGBQ==" length="4592331" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0</title>
       <description>Initial version of the app<br/></description>
       <sparkle:version>8</sparkle:version>
