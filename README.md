@@ -19,7 +19,7 @@ Custom layouts, global hotkeys, multi‑monitor — no subscriptions, no account
   <img src="https://img.shields.io/badge/⬇_Download_the_latest_.dmg-3b82f6?style=for-the-badge" alt="Download" height="44"/>
 </a>
 
-[Releases](https://github.com/enizvk/ekzones/releases)
+**Latest release: [v1.1](https://github.com/enizvk/ekzones/releases/tag/v1.1)** · [All releases](https://github.com/enizvk/ekzones/releases)
 <br/><br/>
 
 [Youtube video with demo](https://youtu.be/uzQjZPqXcBc)
@@ -47,11 +47,26 @@ Tiling and snapping tools on the Mac are either complex, fiddly, paid, or do too
 | 📐 **Built‑in presets** | Halves, Thirds, Quarters, Fullscreen, Top/Bottom, 40/60, 60/40, Main + Side Stack, 3 Cols + Bottom, and more. |
 | ⌨️ **Global hotkeys** | Bind a shortcut to any zone or preset and snap the focused window instantly. |
 | 🖥️ **Multi‑display** | Independent zones per monitor, with a per‑display on/off switch. |
-| 🪟 **Per‑Space layouts** | Optionally keep different layouts on different macOS Spaces. |
+| 🪟 **Per‑Space layouts** | Keep a different layout on every macOS Space — per display, remembered across reboots. |
+| ⌨️ **Keyboard navigation** | Move the focused window to the next / previous zone or swap it with its neighbour, no mouse needed. |
+| ➕ **Span & number keys** | Hold ⌥ while dragging to fill several zones at once; press 1–9 to pick a zone by number. |
+| ↩️ **Restore size** | Drag a window out of its zone and it springs back to its original size. |
+| 🚀 **App rules** | Send an app's window into a named zone the moment it launches. |
 | ✨ **Auto‑arrange** | Apply a preset and let ekzones lay out your open windows for you. |
 | 💾 **Import / export** | Save your whole setup to a `.ekzones` file and sync it between Macs. |
 | 🌓 **Looks native** | System / Light / Dark appearance, start‑at‑login, optional menu‑bar hiding. |
 | ⬆️ **Auto‑updates** | New versions install themselves, securely — see below. |
+
+## 🆕 What's new in 1.1
+
+Release: [v1.1](https://github.com/enizvk/ekzones/releases/tag/v1.1)
+
+- **Per‑Space layouts, per display** — each desktop on each monitor keeps its own layout, and it survives reboots.
+- **Keyboard navigation** — move the focused window to the next/previous zone, or swap it with its neighbour.
+- **Span zones** — hold ⌥ while Shift‑dragging to fill several zones; press **1–9** mid‑drag to pick a zone by number.
+- **Restore size** — drag a snapped window out of its zone and it gets its original size back.
+- **App rules** — snap an app's first window into a named zone when it launches.
+- Zone shortcuts now act on the display under the cursor; Auto‑arrange ignores windows on other desktops.
 
 ## 📸 Screenshots
 
@@ -107,7 +122,7 @@ The app isn't notarized by Apple. It's safe to open — use the bundled Install 
 
 <details>
 <summary><b>Why does it need Accessibility permission?</b></summary>
-Moving and resizing other apps' windows, and detecting your Shift‑drag, both require macOS Accessibility access. ekzones doesn't read your screen or keystrokes for anything else.
+Moving and resizing other apps' windows, and detecting your Shift‑drag, both require macOS Accessibility access. ekzones doesn't read your screen, and the only keys it watches are 1–9 while you are dragging a window.
 </details>
 
 <details>
@@ -136,3 +151,4 @@ Yes. Your layouts live in <code>~/Library/Application Support/ekzones/</code>, a
 
 Made with ❤️ for people who like tidy desktops.
 </div>
+
